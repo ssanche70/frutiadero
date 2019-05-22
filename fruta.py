@@ -21,21 +21,21 @@ class fruta:
 
         self.cantidad_usar = cantidad_usar
 
-        if not self.pelada and cantidad_usar > 0:
-            return cantidad_usar
+        if not self.pelada and cantidad_usar > 0 and self.sabor == 'papaya':
+            return cantidad_usar * 130
 
-        elif cantidad_usar <= 0:
-            return 'No hay frutas'
+        elif not self.pelada and cantidad_usar > 0 and self.sabor == 'banano':
+            return cantidad_usar * 10
 
-        elif self.pelada:
-            return 'La fruta se debe pelar'
+        elif cantidad_usar <= 0 or self.pelada:
+            raise ValueError('No hay manera de proceder')
 
     def licuar(self, cantidad_usar):
 
         self.cantidad_usar = cantidad_usar
 
         if not self.pelada and cantidad_usar > 0:
-            return cantidad_usar
+            return cantidad_usar * 6
 
-        elif self.pelada and cantidad_usar <= 0:
-            return 'Así no se puede hacer jugo'
+        elif self.pelada or cantidad_usar <= 0:
+            raise ValueError('Así no se puede hacer jugo')
