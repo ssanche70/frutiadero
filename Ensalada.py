@@ -12,4 +12,6 @@ class Ensalada:
         self.crema = crema
 
     def alistar(self, nombre, tamano, ingredientes, crema):
-        return f'Usted pidio un {nombre} de {tamano} Oz, con {ingredientes} y {crema} crema'
+        if tamano > 0 and tamano < 10:
+            return f'Usted pidio un {nombre} de {tamano} Oz, con {ingredientes} y {crema} crema'
+        raise ValueError('Ese tamano no existe')

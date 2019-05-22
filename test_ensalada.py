@@ -8,3 +8,9 @@ class TestEnsalada(TestCase):
         real = dado.alistar('Elixir', 9, 'Mango Piña Maracuya', 'con')
 
         self.assertEqual(espero, real)
+
+        dado = Ensalada('Margarita', 14, 'Pera Banano Manzana', 'con')
+
+        with self.assertRaises(ValueError):
+            dado.alistar('Margarita', 14, 'Pera Banano Manzana', 'con')
+

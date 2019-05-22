@@ -8,3 +8,8 @@ class TestJugo(TestCase):
         real = dado.preparar('Bosque Negro', 7, 'Arándanos Mora Agraz', 'con', 30)
 
         self.assertEqual(real, espero)
+
+        dado = Jugo('Bosque Blanco', 11, 'Corozo Araza Lulo', 'con', 50)
+
+        with self.assertRaises(ValueError):
+            dado.preparar('Bosque Blanco', 12, 'Corozo Araza Lulo', 'con', 5)

@@ -14,4 +14,6 @@ class Jugo:
         self.porcentajeagua = pocentajeagua
 
     def preparar(self, nombre, tamano, ingredientes, azucar, porcentajeagua):
-        return f'Ested eligió {nombre} de {tamano} Oz con {ingredientes}, {azucar} azucar y {porcentajeagua} % de agua'
+        if tamano > 0 and tamano < 10:
+            return f'Ested eligió {nombre} de {tamano} Oz con {ingredientes}, {azucar} azucar y {porcentajeagua} % de agua'
+        raise ValueError('Ese tamaño no existe')
