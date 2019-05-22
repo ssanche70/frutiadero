@@ -14,9 +14,13 @@ class TestFruta(TestCase):
     def test_cortar(self):
         dado = fruta('papaya', 1000)
         espero = 130
-        real = dado.cortar(1)
+        real = dado.cortar(130)
 
         self.assertEqual(real, espero)
 
     def test_licuar(self):
-        self.fail()
+        dado = fruta('manzana', 12)
+        espero = 6
+        real = dado.licuar(6)
+
+        self.assertEqual(real, espero)
