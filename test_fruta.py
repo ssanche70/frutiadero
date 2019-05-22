@@ -12,9 +12,9 @@ class TestFruta(TestCase):
         self.assertRaises(ValueError, dado.pelar)
 
     def test_cortar(self):
-        dado = fruta('manzana', 4)
-        espero = True
-        real = dado.cortar()
+        dado = fruta('papaya', 1000)
+        espero = 130
+        real = dado.cortar(1)
 
         self.assertEqual(real, espero)
 

@@ -3,11 +3,11 @@ class fruta:
     sabor = ''
     pelada = False
     cantidad = 0
-    __TIPOS__ = ['banano', 'manzana', 'pera', 'piña', 'papaya']
+    __TIPOS__ = {'banano'[5, 100], 'manzana'[6, 50], 'pera'[5, 70], 'piña'[60, 150], 'papaya'[130, 220]}
 
     def __init__(self, sabor, cantidad):
 
-        self.sabor = sabor
+        self.sabor = sabor if sabor in self.__TIPOS__ else 'banano'
         self.cantidad = cantidad
 
     def pelar(self):
