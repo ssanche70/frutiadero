@@ -3,7 +3,7 @@ from Ensalada import Ensalada
 
 class TestEnsalada(TestCase):
     def test_alistar(self):
-        dado = Ensalada('Elixir', 9, 'Mango Piña Marauya', 'con')
+        dado = Ensalada('Elixir', 9, 'Mango Piña Maracuya', 'con')
         espero = 'Usted pidio un Elixir de 9 Oz, con Mango Piña Maracuya y con crema'
         real = dado.alistar('Elixir', 9, 'Mango Piña Maracuya', 'con')
 

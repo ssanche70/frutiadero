@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b6019a-26b0-4ba4-b171-547f69772d4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fruta.py" beforeDir="false" afterPath="$PROJECT_DIR$/fruta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_fruta.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_fruta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_frutiadero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frutiadero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Frutiadero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_ensalada.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_ensalada.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ensalada.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -25,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fruta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
+            <state relative-caret-position="17">
               <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
@@ -34,8 +36,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frutiadero.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_frutiadero.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_jugo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="82" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -64,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_ensalada.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            <state relative-caret-position="85">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -73,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_fruta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -100,13 +117,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Frutiadero.py" />
         <option value="$PROJECT_DIR$/Jugo.py" />
         <option value="$PROJECT_DIR$/test_jugo.py" />
         <option value="$PROJECT_DIR$/Ensalada.py" />
-        <option value="$PROJECT_DIR$/test_ensalada.py" />
         <option value="$PROJECT_DIR$/fruta.py" />
         <option value="$PROJECT_DIR$/test_fruta.py" />
+        <option value="$PROJECT_DIR$/Frutiadero.py" />
+        <option value="$PROJECT_DIR$/test_ensalada.py" />
+        <option value="$PROJECT_DIR$/test_frutiadero.py" />
       </list>
     </option>
   </component>
@@ -160,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_fruta.TestFruta.test_licuar">
+  <component name="RunManager" selected="Python tests.Unittests for test_frutiadero.TestFrutiadero.test_preparar">
     <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="frutiadero" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,7 +221,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_fruta.TestFruta.test_pelar" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_frutiadero.TestFrutiadero.test_preparar" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="frutiadero" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,7 +231,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fruta.TestFruta.test_pelar&quot;" />
+      <option name="_new_target" value="&quot;test_frutiadero.TestFrutiadero.test_preparar&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -233,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_frutiadero.TestFrutiadero.test_preparar" />
+        <item itemvalue="Python tests.Unittests for test_ensalada.TestEnsalada.test_alistar" />
         <item itemvalue="Python tests.Unittests for test_fruta.TestFruta.test_licuar" />
         <item itemvalue="Python tests.Unittests for test_jugo.TestJugo.test_preparar" />
-        <item itemvalue="Python tests.Unittests for test_ensalada.TestEnsalada.test_alistar" />
         <item itemvalue="Python tests.Unittests for test_fruta.TestFruta.test_cortar" />
-        <item itemvalue="Python tests.Unittests for test_fruta.TestFruta.test_pelar" />
       </list>
     </recent_temporary>
   </component>
@@ -255,35 +273,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_cortar - 2019.05.21 at 23h 05m 41s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_cortar" configurationId="tests" />
+    <history-entry file="Unittests_for_test_frutiadero_TestFrutiadero_test_preparar - 2019.05.22 at 23h 14m 52s.xml">
+      <configuration name="Unittests for test_frutiadero.TestFrutiadero.test_preparar" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_pelar - 2019.05.21 at 23h 06m 18s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_pelar" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_cortar - 2019.05.21 at 23h 06m 21s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_cortar" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_licuar - 2019.05.21 at 23h 06m 24s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_licuar" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_licuar - 2019.05.21 at 23h 07m 54s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_licuar" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_licuar - 2019.05.21 at 23h 09m 03s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_licuar" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_licuar - 2019.05.21 at 23h 10m 06s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_licuar" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.21 at 23h 10m 33s.xml">
+    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.22 at 23h 15m 16s.xml">
       <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_jugo_TestJugo_test_preparar - 2019.05.21 at 23h 10m 36s.xml">
-      <configuration name="Unittests for test_jugo.TestJugo.test_preparar" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.22 at 23h 15m 27s.xml">
+      <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fruta_TestFruta_test_licuar - 2019.05.21 at 23h 12m 15s.xml">
-      <configuration name="Unittests for test_fruta.TestFruta.test_licuar" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.22 at 23h 15m 35s.xml">
+      <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_frutiadero_TestFrutiadero_test_preparar - 2019.05.22 at 23h 15m 41s.xml">
+      <configuration name="Unittests for test_frutiadero.TestFrutiadero.test_preparar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_frutiadero_TestFrutiadero_test_preparar - 2019.05.22 at 23h 16m 06s.xml">
+      <configuration name="Unittests for test_frutiadero.TestFrutiadero.test_preparar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.22 at 23h 16m 16s.xml">
+      <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.22 at 23h 16m 20s.xml">
+      <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ensalada_TestEnsalada_test_alistar - 2019.05.22 at 23h 16m 28s.xml">
+      <configuration name="Unittests for test_ensalada.TestEnsalada.test_alistar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_frutiadero_TestFrutiadero_test_preparar - 2019.05.22 at 23h 17m 42s.xml">
+      <configuration name="Unittests for test_frutiadero.TestFrutiadero.test_preparar" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -310,24 +328,23 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ensalada.py">
+    <entry file="file://$PROJECT_DIR$/test_fruta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fruta.py">
+    <entry file="file://$PROJECT_DIR$/test_ensalada.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frutiadero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,31 +357,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_jugo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="82" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ensalada.py">
+    <entry file="file://$PROJECT_DIR$/test_frutiadero.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_fruta.py">
+    <entry file="file://$PROJECT_DIR$/Frutiadero.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fruta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensalada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
